@@ -2,5 +2,5 @@
 /staff.html /staff/staff.html 200! Role=Admin
 
 # else redirect back to login
-/staff.html /login.html 302!
-/staff/staff.html /login.html 302!
+/staff.html /index.html 302!
+/staff/staff.html /index.html 302!
