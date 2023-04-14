@@ -1,0 +1,6 @@
+# If visitor has 'nf_jwt' with role of Admin set, let them in.
+/index.html /staff/index.html 200! Role=Admin
+
+# else redirect back to login
+/index.html /login.html 302!
+/staff/index.html /login.html 302!
